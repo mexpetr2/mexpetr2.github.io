@@ -1,0 +1,24 @@
+table {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+img {
+    border: 5px solid;
+}
+
+form{
+    margin-top: 20px;
+}
+input {
+    display: flex;
+    margin-top: 5px;
+}

@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: Arial;
+}
+
+
+.navbar ul {
+    list-style: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100px;
+    color: black;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+}
+
+.navbar a:hover{
+    background: orange;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+    font-size:20px;
+    font-size-adjust: 20px;
+
+}
+
+video{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    object-fit: fill; 
+    background-size: cover;
+    z-index: -2;
+    /* // use "cover" to avoid distortion */
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.buttonshowtable{
+    background-color: #888888;
+    border-radius: 8px;
+    width: 200px;
+    height: 90px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  .table{
+    display: flex;
+  }
+/* Tableau DARK */
+
+table.darkTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #000000;
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  table.darkTable tbody td {
+    font-size: 13px;
+    color: #E6E6E6;
+  }
+  table.darkTable tr:nth-child(even) {
+    background: #888888;
+  }
+  table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+  }
+  table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+  }
+  table.darkTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.darkTable tfoot {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background: #000000;
+    background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+    border-top: 1px solid #4A4A4A;
+  }
+  table.darkTable tfoot td {
+    font-size: 12px;
+  }
+
+  /* FIN TABLEAU DARK */
+
+  /* TABLEAU PURPLE */
+
+ 
+
+  table.purpleHorizon {
+    border: 4px solid #792396;
+    background-color: #555555;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.purpleHorizon td, table.purpleHorizon th {
+    border: 1px solid #555555;
+    padding: 5px 2px;
+  }
+  table.purpleHorizon tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.purpleHorizon tr:nth-child(even) {
+    background: #CC3BFC;
+  }
+  table.purpleHorizon thead {
+    background: #792396;
+    border-bottom: 4px solid #792396;
+  }
+  table.purpleHorizon thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    border-left: 2px solid #792396;
+  }
+  table.purpleHorizon thead th:first-child {
+    border-left: none;
+  }
+  
+  table.purpleHorizon tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #CE3CFF;
+    background: -moz-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    background: -webkit-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    background: linear-gradient(to bottom, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    border-top: 5px solid #792396;
+  }
+  table.purpleHorizon tfoot td {
+    font-size: 13px;
+  }
+  table.purpleHorizon tfoot .links {
+    text-align: right;
+  }
+  table.purpleHorizon tfoot .links a{
+    display: inline-block;
+    background: #792396;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+ /* FIN TABLEAU PURPLE */
+
+ 
+ table.unstyledTable {
+}
+table.unstyledTable td, table.unstyledTable th {
+}
+table.unstyledTable thead {
+  background: #DDDDDD;
+}
+table.unstyledTable thead th {
+  font-weight: normal;
+}
+table.unstyledTable tfoot {
+  font-weight: bold;
+}
+
+form{
+    margin-top: 20px;
+}
+input {
+    display: flex;
+    margin-top: 5px;
+}

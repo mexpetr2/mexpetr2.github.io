@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar ul {
+    list-style: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100px;
+    color: black;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+}
+
+.navbar a:hover{
+    background: orange;
+
+    cursor: pointer;
+    /* transform: scale(1.1); */
+    font-size:20px;
+
+}
+
+.container{
+    height: auto;
+    width: auto;
+}
+
+video{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    object-fit: fill; 
+    background-size: cover;
+    z-index: -2;
+    /* // use "cover" to avoid distortion */
+}
+
+.text{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: -1;
+    /* height: 100%;
+    width: 100%; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+
+.body{
+    width: 40vw;
+    margin-left: 20px;
+}
+
+.side{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+
+.tablegithub{
+    width: 90vw;
+    border: none;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablegithub tbody {
+    background-color: #9a8c98;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tablegithub thead{
+    background-color: #4a4e69;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.blueTable{
+    width: 40vw;
+    border: none;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.blueTable tbody {
+    background-color: #dda15e;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blueTable thead{
+    background-color: #bc6c25;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lastTable{
+    width: 40vw;
+    border: none;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.lastTable tbody {
+    background-color: #e85d04;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lastTable thead{
+    background-color: #d00000;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.buttonshowtable{
+    width: 100px;
+    height: 70px;
+    background-color: #4a4e69;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+.map{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+.country{
+    margin-left: 30px;
+    box-shadow:2px 2px 2px 2px black ;
+    background: white;
+    width: 300px;
+}
+
+.head h1 {
+    padding: 5px 20px;
+    margin: 15px;
+    margin-bottom:1px;
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.head{
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+
+.head hr {
+    width: 20%;
+    margin-left:32px;
+    border: 2px solid #0B5AA2;
+  }
+  
+/* .formvisited {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formvisited input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.forms {
+    height: 500px;
+    width: 600px;
+    background: #0B5AA2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+/*}
+
+.forms input {
+    border-radius: 10px;
+    border: black solid 2px;
+    background: violet;
+}
+
+
+.forms label{
+    margin-bottom: 5px;
+} */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .map{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .forms {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+footer{
+    height: 47px;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+footer p{
+    padding: 6px;
+}
+
+
+
+@media (max-width: 576px) {
+    .side {
+        display: block;
+    }
+}
