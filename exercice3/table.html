@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="core/style.css">
+    <title>Tableau</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="table.html">TABLEAU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="table">
+
+        <table class="darkTable" id="mytable">
+            <thead>
+            <tr>
+            <th>Louvre</th>
+            <th>Pompidou</th>
+            <th>Orsay</th>
+            <th>Rodin</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><img src="assets/joconde.jpg" alt="lajoconde"></td>
+            <td><img src="assets/pompidou2.jpg" alt=""></td>
+            <td><img src="assets/orsay1.jpeg" alt=""></td>
+            <td><img src="assets/rodin1.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><img src="assets/lebertylouvre.jpg" alt=""></td>
+                <td><img src="assets/pompidou3.jpg" alt=""></td>
+                <td><img src="assets/orsay2.jpg" alt=""></td>
+                <td><img src="assets/rodin2.jpg" alt=""></td>
+                
+            </tr>
+            <tr>
+            <td><img src="assets/statutlouvre.jpg" alt=""></td>
+            <td><img src="assets/pompidou4.jpg" alt=""></td>
+            <td><img src="assets/orsay3.jpg" alt=""></td>
+            <td><img src="assets/rodin3.jpg" alt=""></td>
+        
+            </tr>
+            </tbody>
+            </table>
+        
+            <button class="buttonshowtable" onclick="toggle(this);">Cacher le tableau</button>
+            
+            <div class="tablecentered">
+            <table class="purpleHorizon">
+                <thead>
+                <tr>
+                <th>Louvre</th>
+                <th>Pompidou</th>
+                <th>Orsay</th>
+                <th>Rodin</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>5/10</td>
+                <td>7/10</td>
+                <td>9/10</td>
+                <td>6/10</td>
+                </tr>
+                <tr>
+                <td>8/10</td>
+                <td>1/10</td>
+                <td>5/10</td>
+                <td>4/10</td>
+                </tr>
+                <tr>
+                <td>9/10</td>
+                <td>8/10</td>
+                <td>8/10</td>
+                <td>9/10</td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <footer class="footer">
+                <ul>
+                    <!-- <p>👋</p> -->
+                    <li><a href="mailto:clement.ferreira00@gmail.com">Email</a></li>
+                    <li><a href="linkedin.com/in/clément-ferreira-436944217/">Linkedin</a></li>
+                    <li><a href="https://github.com/julesforrest">Github</a></li>
+                  </ul>
+            </footer>
+            
+</body>
+<script src="app.js"></script>
+</html>
