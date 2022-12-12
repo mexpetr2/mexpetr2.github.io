@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+img {
+    border: 5px solid;
+    width: 450px;
+    height: 450px;
+}
+
+.img{
+    display: block;
+    padding-right: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.table{
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    background: #000000;
+    border: 1px solid pink;
+}
+
+.alltable{
+    display: flex;
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    width: 40vw;
+}
+
+.forms input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    margin: 9px;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
